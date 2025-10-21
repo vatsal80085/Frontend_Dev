@@ -1,0 +1,58 @@
+/* q3.css */
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7fafc;
+  padding: 2rem
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  align-items: start
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(10, 16, 32, 0.06);
+  text-align: center
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem
+}
+
+.role {
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 0.5rem
+}
+
+/* Highlight the Team Lead */
+.card.popular {
+  background: #f0f9ff;
+  border: 2px dashed #60a5fa
+}
+
+/* Responsive: single column under 600px */
+@media (max-width:600px) {
+  .team {
+    grid-template-columns: 1fr
+  }
+}

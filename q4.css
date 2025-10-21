@@ -1,0 +1,59 @@
+/* q4.css */
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #fff;
+    color: #111
+}
+
+.container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 1rem
+}
+
+.article header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.25rem
+}
+
+.meta {
+    color: #6b7280;
+    margin-bottom: 1.25rem
+}
+
+.body p {
+    margin: 0 0 1rem 0;
+    line-height: 1.8
+}
+
+/* Larger first letter */
+.body p::first-letter {
+    font-size: 2.25rem;
+    float: left;
+    margin-right: 0.3rem;
+    font-weight: 700
+}
+
+/* Bold first line */
+.body p::first-line {
+    font-weight: 700
+}
+
+/* Highlighted mark styling */
+mark {
+    background: #fff4b1;
+    color: #111;
+    padding: 0 0.15rem
+}
+
+/* Blockquote emphasis */
+blockquote {
+    border-left: 4px solid #ffb86b;
+    background: #fff8ef;
+    padding: 1rem;
+    margin: 1.25rem 0
+}

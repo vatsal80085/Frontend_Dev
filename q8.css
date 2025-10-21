@@ -1,0 +1,71 @@
+/* q8.css */
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Inter, Arial;
+  margin: 0
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: #0b2545;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 10
+}
+
+.layout {
+  display: flex;
+  margin-top: 56px;
+  min-height: calc(100vh - 56px)
+}
+
+.sidebar {
+  width: 220px;
+  background: #07203a;
+  color: #dbeafe;
+  padding: 1rem;
+  min-height: 100vh
+}
+
+.sidebar nav a {
+  display: block;
+  color: inherit;
+  padding: 0.5rem 0;
+  text-decoration: none
+}
+
+.content {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column
+}
+
+.card {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06)
+}
+
+/* On small screens stack the sidebar above content */
+@media (max-width:800px) {
+  .layout {
+    flex-direction: column
+  }
+
+  .sidebar {
+    width: 100%;
+    min-height: auto
+  }
+}

@@ -1,0 +1,103 @@
+/* q2.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Georgia, serif;
+    color: #111;
+    background: #f3f5f7
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0
+}
+
+header nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #0f1724
+}
+
+main {
+    margin-top: 0
+}
+
+/* Full width sections */
+.full {
+    min-height: 60vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+/* background image with fixed attachment (parallax-like) */
+.bg-image {
+    background-image: url('mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white
+}
+
+.bg-image .overlay {
+    background: rgba(3, 7, 18, 0.45);
+    padding: 2rem;
+    border-radius: 8px;
+    display: inline-block
+}
+
+/* linear gradient */
+.gradient-linear {
+    background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%)
+}
+
+/* radial gradient */
+.gradient-radial {
+    background: radial-gradient(circle at 20% 20%, #c9f0ff 0%, #ffffff 60%)
+}
+
+/* parallax sections using background-attachment: fixed */
+.parallax {
+    background-image: url('pine.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff
+}
+
+.parallax2 {
+    background-image: url('village.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff
+}
+
+/* spacing and headings */
+.full h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem
+}
+
+.full p {
+    max-width: 65ch;
+    margin-top: 0.5rem;
+    line-height: 1.6
+}
+
+/* Ensure good contrast */
+@media (max-width:700px) {
+    .full {
+        padding: 3rem 1rem;
+        min-height: 50vh
+    }
+}

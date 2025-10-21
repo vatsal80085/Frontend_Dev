@@ -1,0 +1,125 @@
+/* q10.css */
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Inter, Arial;
+    background: linear-gradient(180deg, #f8fafc, #eef2ff)
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background: rgba(11, 37, 69, 0.95);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    z-index: 5
+}
+
+.hero {
+    height: 50vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 8px
+}
+
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem
+}
+
+.about {
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+.about .col {
+    flex: 1
+}
+
+.about .img img {
+    max-width: 100%;
+    border: 8px solid rgba(0, 0, 0, 0.05)
+}
+
+.services {
+    display: flex;
+    gap: 1rem
+}
+
+.service {
+    flex: 1;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid rgba(2, 6, 23, 0.06);
+    box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06)
+}
+
+.contact form {
+    display: flex;
+    gap: 1rem
+}
+
+.contact input {
+    flex: 1;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1
+}
+
+.contact button {
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #2563eb;
+    color: #fff
+}
+
+/* Demonstrating outline, margin, padding */
+.service {
+    margin: 0;
+    padding: 1rem;
+    outline: 2px solid rgba(37, 99, 235, 0.04)
+}
+
+/* Positioning examples */
+.service:nth-child(2) {
+    position: relative
+}
+
+.service:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background: rgba(37, 99, 235, 0.8);
+    border-radius: 50%
+}
+
+/* Responsive */
+@media (max-width:800px) {
+    .about {
+        flex-direction: column
+    }
+
+    .services {
+        flex-direction: column
+    }
+}
