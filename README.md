@@ -1,8 +1,20 @@
 # Frontend_Dev
 git log --all --graph --decorate --oneline
 ```
-*  (origin/html-iframes, html-iframes) [Vatsal Agarwal] add . assignment4 added
-| *  (origin/html-block-and-inline-elements, html-block-and-inline-elements) [Vatsal Agarwal] add . assignment3 added
+* 761c5ba (origin/responsive-css, responsive-css) [Vatsal Agarwal] add . assignment added
+| * e43eafc (origin/pseudo-classes, pseudo-classes) [Vatsal Agarwal] add . assignment added
+|/  
+| * 6f05b89 (origin/css-model, css-model) [Vatsal Agarwal] add . assignment added
+|/  
+* eb2bc5f (HEAD -> main, origin/main, origin/HEAD) [Vatsal] Updated README
+* b4cc17f [Vatsal] updated readme.md
+| * f426e73 (origin/css-Flexbox-and-Grid, css-Flexbox-and-Grid) [Vatsal Agarwal] add . assignment added
+|/  
+| * 8ab19df (origin/css-basics, css-basics) [Vatsal Agarwal] add . assignment5 added
+| * a52f0fc [Vatsal Agarwal] add . assignment5 added
+|/
+| *  (origin/html-iframes, html-iframes) [Vatsal Agarwal] add . assignment4 added
+| *  (origin/html-block-and-inline-elements, html-block-and-inline-elements) [Vatsal Agarwal] add .assignment3 added
 | *  [Vatsal Agarwal] add . classwork Added
 |/  
 | *  (origin/HTML, HTML) [Vatsal Agarwal] add . assignment2 added
