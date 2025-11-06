@@ -32,11 +32,11 @@ Each topic is maintained in a **separate branch**, as instructed — ensuring or
 
 ---
 
-## 📚 Course Overview
+## Course Overview
 
 The course introduces core frontend concepts, starting from **HTML**, progressing through **CSS**, **Flexbox**, **Grid**, and **Animations**, and finally covering **Responsive Design**.
 
-### 🧠 Learning Path
+### Learning Path
 1. **Introduction to Web Development**
 2. **HTML Basics**
 3. **HTML Block & Inline Elements**
@@ -48,7 +48,7 @@ The course introduces core frontend concepts, starting from **HTML**, progressin
 9. **Responsive CSS**
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 | Branch Name | Topic Covered |
 |--------------|----------------|
@@ -65,7 +65,7 @@ The course introduces core frontend concepts, starting from **HTML**, progressin
 
 ---
 
-## 🧩 Assignments
+## Assignments
 
 | Date | Assignment | Description |
 |------|-------------|-------------|
@@ -80,37 +80,37 @@ The course introduces core frontend concepts, starting from **HTML**, progressin
 
 ---
 
-## 🧱 Daily Progress
+## Daily Progress
 
-### 🗓️ Oct 9 – Introduction to Web Development
+### Oct 9 – Introduction to Web Development
 - Learned 3-Tier Architecture: Frontend, Backend, and Database  
 - Practiced HTML basics: headings, paragraphs, tables, and images  
 - Task: Create a timetable using the `<table>` tag  
 
-### 🗓️ Oct 10 – HTML Block & Inline Elements
+### Oct 10 – HTML Block & Inline Elements
 - Explored inline and block elements, lists, dropdowns, and forms  
 - Task: Create webpage demonstrating all block and inline elements  
 
-### 🗓️ Oct 13 – Introduction to CSS
+### Oct 13 – Introduction to CSS
 - Learned CSS syntax, types (inline, internal, external), and selectors  
 - Task: Design a webpage with margins, padding, and positioning  
 
-### 🗓️ Oct 16 – CSS Flexbox & Grid
+### Oct 16 – CSS Flexbox & Grid
 - Practiced Flexbox and Grid layouts  
 - Explored transformations and animations  
 - Task: Design a calculator layout using CSS Grid  
 
-### 🗓️ Oct 30 – CSS Model
+### Oct 30 – CSS Model
 - Revised Box Model, borders, padding, gradients, and shadows  
 - Task: Build a calculator layout using CSS Grid  
 
-### 🗓️ Oct 31 – CSS Pseudo-Classes & Animations
+### Oct 31 – CSS Pseudo-Classes & Animations
 - Revised pseudo-classes, tooltips, transitions, and transforms  
 - Task: Animate an element diagonally using transition and transform  
 
 ---
 
-## 🧠 Upcoming Topics
+## Upcoming Topics
 - **Responsive CSS**
   - Filters
   - Responsive Web Design Principles
@@ -118,20 +118,12 @@ The course introduces core frontend concepts, starting from **HTML**, progressin
 
 ---
 
-## 🧰 Tools Used
-- **VS Code** (with Live Server)
-- **Git & GitHub**
-- **HTML5 / CSS3**
-- **Flexbox & Grid Layouts**
-
----
-
-## 💬 Acknowledgement
-Grateful to **Mr. Deepak Prasad** and **Mr. Sahil Kumar** for their continuous guidance and practical assignments that enhance our hands-on learning experience.
+## Acknowledgement
+Grateful to **Mr. Sahil Kumar** and **Mr. Deepak Prasad for their continuous guidance and practical assignments that enhance our hands-on learning experience.
 
 ---
 
 **Author:** Vatsal Agarwal
 **Course:** Frontend Development (HTML, CSS)  
-**Mentors:** Deepak Prasad & Sahil Kumar  
+**Mentors:** Sahil Kumar & Deepak Prasad
 **Institution:** GLA University,Mathura
