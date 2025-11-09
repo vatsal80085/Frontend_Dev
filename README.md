@@ -1,17 +1,20 @@
 # Frontend_Dev
 git log --all --graph --decorate --oneline
 ```
-* 761c5ba (origin/responsive-css, responsive-css) [Vatsal Agarwal] add . assignment added
-| * e43eafc (origin/pseudo-classes, pseudo-classes) [Vatsal Agarwal] add . assignment added
+| * (origin/bootstrap, bootstrap) [Vatsal Agarwal] add . assignment added
+| * [Vatsal Agarwal] add . lecture practice and learnings added
+| * (HEAD -> main, origin/main, origin/HEAD) [Vatsal] updated readme.md
+| * (origin/responsive-css, responsive-css) [Vatsal Agarwal] add . assignment added
+| * (origin/pseudo-classes, pseudo-classes) [Vatsal Agarwal] add . assignment added
 |/  
-| * 6f05b89 (origin/css-model, css-model) [Vatsal Agarwal] add . assignment added
+| * (origin/css-model, css-model) [Vatsal Agarwal] add . assignment added
 |/  
-* eb2bc5f (HEAD -> main, origin/main, origin/HEAD) [Vatsal] Updated README
-* b4cc17f [Vatsal] updated readme.md
-| * f426e73 (origin/css-Flexbox-and-Grid, css-Flexbox-and-Grid) [Vatsal Agarwal] add . assignment added
+* (HEAD -> main, origin/main, origin/HEAD) [Vatsal] Updated README
+* [Vatsal] updated readme.md
+| * (origin/css-Flexbox-and-Grid, css-Flexbox-and-Grid) [Vatsal Agarwal] add . assignment added
 |/  
-| * 8ab19df (origin/css-basics, css-basics) [Vatsal Agarwal] add . assignment5 added
-| * a52f0fc [Vatsal Agarwal] add . assignment5 added
+| * (origin/css-basics, css-basics) [Vatsal Agarwal] add . assignment5 added
+| * [Vatsal Agarwal] add . assignment5 added
 |/
 | *  (origin/html-iframes, html-iframes) [Vatsal Agarwal] add . assignment4 added
 | *  (origin/html-block-and-inline-elements, html-block-and-inline-elements) [Vatsal Agarwal] add .assignment3 added
@@ -27,111 +30,120 @@ git log --all --graph --decorate --oneline
 
 # Frontend Development Repository
 
-This repository contains my daily learning progress, assignments, and projects for the **Frontend Development** module, guided by **Mr. Deepak Prasad** and **Mr. Sahil Kumar**.  
-Each topic is maintained in a **separate branch**, as instructed — ensuring organized development and version tracking.
+This repository documents my daily learning progress, assignments, and practical implementations for the **Frontend Development** module, guided by **Mr. Deepak Prasad** and **Mr. Sahil Kumar**.  
+Each topic is developed on a **dedicated branch** to ensure proper version control, organization, and traceability throughout the course.
 
 ---
 
-## 📚 Course Overview
+## Course Overview
 
-The course introduces core frontend concepts, starting from **HTML**, progressing through **CSS**, **Flexbox**, **Grid**, and **Animations**, and finally covering **Responsive Design**.
+The course introduces the foundational concepts of modern frontend engineering. Beginning with **HTML**, we progress into **CSS**, **Flexbox**, **Grid**, **Animations**, **Bootstrap**, and eventually **Responsive Web Design**.
 
-### 🧠 Learning Path
+---
+
+## Learning Path
+
 1. **Introduction to Web Development**
 2. **HTML Basics**
 3. **HTML Block & Inline Elements**
 4. **HTML Iframes**
 5. **CSS Basics**
 6. **CSS Flexbox and Grid**
-7. **CSS Model**
-8. **CSS Pseudo-Classes and Animations**
-9. **Responsive CSS**
+7. **CSS Box Model**
+8. **CSS Pseudo-Classes, Transitions & Animations**
+9. **Bootstrap Fundamentals**
+10. **Responsive CSS & Media Queries**
+
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 | Branch Name | Topic Covered |
 |--------------|----------------|
 | `main` | README and overall progress |
 | `intro-to-web-dev` | 3-Tier Architecture, localhost, ports, and basic HTML setup |
 | `html` | HTML basics – headings, paragraphs, tables, and images |
-| `html-block-&inline-elements` | Block vs Inline, attributes, layout, and positioning |
-| `html-iframes` | Embedding external pages and media using `<iframe>` |
-| `css` | Introduction to CSS – syntax, selectors, colors, and backgrounds |
-| `flex` | CSS Flexbox layouts |
-| `css-model` | CSS Box Model, borders, padding, height/width, gradients |
-| `css-classes` | Pseudo-classes, transitions, animations, and transforms |
-| `responsive-css` | Filters, responsive web design, and media queries |
+| `html-block-&inline-elements` | Block vs inline behavior, attributes, layout, and positioning |
+| `html-iframes` | Embedding external websites, maps, and videos using `<iframe>` |
+| `css` | CSS fundamentals – syntax, selectors, colors, and backgrounds |
+| `flex` | CSS Flexbox layout system |
+| `css-model` | CSS Box Model – margin, padding, borders, shadows, gradients |
+| `css-classes` | Pseudo-classes, tooltips, transitions, and transforms |
+| `bootstrap` | Responsive containers, grid system, utilities, and components |
+| `responsive-css` | Filters, responsive design principles, and media queries |
 
 ---
 
-## 🧩 Assignments
+## Assignments
 
 | Date | Assignment | Description |
 |------|-------------|-------------|
-| Oct 9 | **Submission of Intro to Web Dev** | Created a timetable using the `<table>` tag |
-| Oct 9 | **Submission of HTML Basics** | Designed a basic webpage using HTML |
-| Oct 10 | **Submission of HTML Block and Inline Elements** | Practiced layout using inline, block, and inline-block elements |
-| Oct 10 | **Submission of HTML iframes** | Embedded YouTube videos and Google Maps using iframes |
-| Oct 16 | **Submission of CSS Basics** | Applied basic CSS styling and layout |
-| Oct 16 | **Submission of CSS Flexbox and Grid** | Built a responsive layout using Flexbox and Grid |
-| Oct 31 | **Submission of CSS Model** | Created a calculator layout using Grid and demonstrated gradients |
-| Oct 31 | **Submission of Pseudo Classes** | Implemented pseudo-classes, animations, transitions, and tooltips |
+| Oct 9 | **Introduction to Web Development** | Created a timetable using the `<table>` element |
+| Oct 9 | **HTML Basics** | Designed a simple webpage demonstrating foundational HTML |
+| Oct 10 | **Block & Inline Elements** | Practiced layout behavior using inline, block, and inline-block elements |
+| Oct 10 | **HTML Iframes** | Embedded YouTube videos and Google Maps |
+| Oct 16 | **CSS Basics** | Applied introductory styling, layout spacing, and selectors |
+| Oct 16 | **Flexbox & Grid Layouts** | Implemented responsive card and calculator layouts |
+| Oct 31 | **CSS Box Model** | Built a calculator layout using CSS Grid and gradient styling |
+| Oct 31 | **Pseudo-Classes & Animations** | Implemented transitions, transforms, and tooltip interactions |
+| Nov (Ongoing) | **Bootstrap Components** | Utilized grid system, utilities, buttons, cards, and responsive breakpoints |
 
 ---
 
-## 🧱 Daily Progress
+## Daily Progress Timeline
 
-### 🗓️ Oct 9 – Introduction to Web Development
-- Learned 3-Tier Architecture: Frontend, Backend, and Database  
-- Practiced HTML basics: headings, paragraphs, tables, and images  
-- Task: Create a timetable using the `<table>` tag  
+### Oct 9 – Introduction to Web Development
+- Understood the 3-Tier Architecture
+- Explored frontend vs backend
+- Practiced tables, paragraphs, and image tags
+- **Task:** Build a timetable using `<table>`
 
-### 🗓️ Oct 10 – HTML Block & Inline Elements
-- Explored inline and block elements, lists, dropdowns, and forms  
-- Task: Create webpage demonstrating all block and inline elements  
+### Oct 10 – HTML Block & Inline Elements
+- Explored inline vs block behavior
+- Worked with dropdowns, forms, and lists
+- **Task:** Demonstrate block, inline, and inline-block differences
 
-### 🗓️ Oct 13 – Introduction to CSS
-- Learned CSS syntax, types (inline, internal, external), and selectors  
-- Task: Design a webpage with margins, padding, and positioning  
+### Oct 13 – Introduction to CSS
+- Learned types of CSS (inline, internal, external)
+- Explored selectors, margins, and padding
+- **Task:** Styling a webpage layout
 
-### 🗓️ Oct 16 – CSS Flexbox & Grid
-- Practiced Flexbox and Grid layouts  
-- Explored transformations and animations  
-- Task: Design a calculator layout using CSS Grid  
+### Oct 16 – Flexbox & Grid Layouts
+- Worked with alignment, justification, wrapping, and responsive columns
+- Practiced animations and transformations
+- **Task:** Calculator UI using Grid
 
-### 🗓️ Oct 30 – CSS Model
-- Revised Box Model, borders, padding, gradients, and shadows  
-- Task: Build a calculator layout using CSS Grid  
+### Oct 30 – CSS Box Model
+- Revised margins, borders, padding, shadows, and gradients
+- **Task:** Gradient-based calculator layout
 
-### 🗓️ Oct 31 – CSS Pseudo-Classes & Animations
-- Revised pseudo-classes, tooltips, transitions, and transforms  
-- Task: Animate an element diagonally using transition and transform  
+### Oct 31 – Pseudo-Classes & Animations
+- Implemented hover, active, focus states
+- Created tooltips and diagonal animations
+- **Task:** Animate an element using transform and transition
 
----
-
-## 🧠 Upcoming Topics
-- **Responsive CSS**
-  - Filters
-  - Responsive Web Design Principles
-  - CSS Media Queries
-
----
-
-## 🧰 Tools Used
-- **VS Code** (with Live Server)
-- **Git & GitHub**
-- **HTML5 / CSS3**
-- **Flexbox & Grid Layouts**
+### Nov – Bootstrap Fundamentals
+- Explored responsive containers, typography utilities, and spacing helpers
+- Implemented the Bootstrap Grid System
+- **Task:** Build a responsive webpage layout using Bootstrap components
 
 ---
 
-## 💬 Acknowledgement
-Grateful to **Mr. Deepak Prasad** and **Mr. Sahil Kumar** for their continuous guidance and practical assignments that enhance our hands-on learning experience.
+## Upcoming Topics
+- **Responsive Design Architecture**
+- Mobile-first workflow
+- Device breakpoints
+- Complex media queries
+- Performance considerations
 
 ---
 
-**Author:** Vatsal Agarwal
-**Course:** Frontend Development (HTML, CSS)  
-**Mentors:** Deepak Prasad & Sahil Kumar  
-**Institution:** GLA University,Mathura
+## Acknowledgment
+
+Grateful to **Mr. Sahil Kumar** and **Mr. Deepak Prasad** for structured guidance, hands-on exercises, and real-time feedback that strengthened practical understanding of frontend principles.
+
+---
+
+**Author:** Vatsal Agarwal  
+**Course:** Frontend Development 
+**Mentors:** Sahil Kumar & Deepak Prasad  
