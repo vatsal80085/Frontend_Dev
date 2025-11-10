@@ -1,0 +1,206 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    position: relative;
+    width: 175px;
+    height: 175px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background: #00eaff;
+    border-radius: 10px;
+    position: absolute;
+    transition: all 1.5s ease;
+}
+
+.box1{ top: 0; left: 0; }
+.box2{ top: 0; right: 0; }
+.box3{ bottom: 0; left: 0; }
+.box4{ bottom: 0; right: 0; }
+
+.box-container:hover .box1{
+    top: -10vh;
+    left: -10vw;
+    background-color: blueviolet;
+    transform:rotate(320deg);
+
+}
+
+.box-container:hover .box2{
+    top: -10vh;
+    right: -10vw;
+    transform:rotate(-320deg);
+    background-color: lightsalmon;
+
+}
+
+.box-container:hover .box3{
+    bottom: -10vh;
+    left: -10vw;
+    background-color: lightgreen;
+    transform:rotate(-320deg);
+
+
+}
+
+.box-container:hover .box4{
+    bottom: -10vh;
+    right: -10vw;
+    background-color: pink;
+    transform:rotate(320deg);
+
+
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  position: relative;
+  width: 175px;
+  height: 175px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: #00eaff;
+  border-radius: 10%;
+  position: absolute;
+  transition: 0.1s ease;
+}
+
+.box1 {
+  top: 0;
+  left: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+  top: 0;
+  right: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box3 {
+  bottom: 0;
+  left: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 {
+  bottom: 0;
+  right: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes tl-bounce {
+  30% {
+    transform: translate(-10vw, -5vh) scale(1.15) rotate(120deg);
+  }
+  60% {
+    transform: translate(-20vw, -15vh) scale(0.92) rotate(240deg);
+  }
+  100% {
+    transform: translate(-40vw, -40vh) rotate(360deg);
+  }
+}
+
+@keyframes tr-bounce {
+  30% {
+    transform: translate(10vw, -5vh) scale(1.15) rotate(-120deg);
+  }
+  60% {
+    transform: translate(20vw, -15vh) scale(0.92) rotate(-240deg);
+  }
+  100% {
+    transform: translate(40vw, -40vh) rotate(-360deg);
+  }
+}
+
+@keyframes bl-bounce {
+  30% {
+    transform: translate(-10vw, 5vh) scale(1.15) rotate(-120deg);
+  }
+  60% {
+    transform: translate(-20vw, 15vh) scale(0.92) rotate(-240deg);
+  }
+  100% {
+    transform: translate(-40vw, 40vh) rotate(-360deg);
+  }
+}
+
+@keyframes br-bounce {
+  30% {
+    transform: translate(10vw, 5vh) scale(1.15) rotate(120deg);
+  }
+  60% {
+    transform: translate(20vw, 15vh) scale(0.92) rotate(240deg);
+  }
+  100% {
+    transform: translate(40vw, 40vh) rotate(360deg);
+  }
+}
+
+.box-container:hover .box1 {
+  animation: tl-bounce 9s ease-out forwards;
+  background-color: blueviolet;
+  box-shadow: 0 0 10px blueviolet;
+  color: crimson;
+}
+
+.box-container:hover .box2 {
+  animation: tr-bounce 11s ease-out forwards;
+  background-color: lightsalmon;
+  box-shadow: 0 0 10px lightsalmon;
+  color: blue;
+}
+
+.box-container:hover .box3 {
+  animation: bl-bounce 7s ease-out forwards;
+  background-color: lightgreen;
+  box-shadow: 0 0 10px lightgreen;
+  color: orange;
+
+}
+
+.box-container:hover .box4 {
+  animation: br-bounce 13s ease-out forwards;
+  background-color: pink;
+  box-shadow: 0 0 10px pink;
+  color: green;
+
+}
