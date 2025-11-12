@@ -1,4 +1,15 @@
 # Frontend_Dev
+
+# Frontend Development Repository
+
+This repository documents my daily learning progress, assignments, and practical implementations for the **Frontend Development** module, guided by **Mr. Deepak Prasad** and **Mr. Sahil Kumar**.  
+Each topic is developed on a **dedicated branch** to ensure proper version control, organization, and traceability throughout the course.
+
+## Overview
+
+The course introduces the foundational concepts of modern frontend engineering. Beginning with **HTML**, we progress into **CSS**, **Flexbox**, **Grid**, **Animations**, **Bootstrap**, and eventually **Responsive Web Design**.
+
+---
 git log --all --graph --decorate --oneline
 ```
 | * (origin/bootstrap, bootstrap) [Vatsal Agarwal] add . assignment added
@@ -30,19 +41,6 @@ git log --all --graph --decorate --oneline
 |/  
 *  (HEAD -> main, origin/main) first commit
 ```
-
-# Frontend Development Repository
-
-This repository documents my daily learning progress, assignments, and practical implementations for the **Frontend Development** module, guided by **Mr. Deepak Prasad** and **Mr. Sahil Kumar**.  
-Each topic is developed on a **dedicated branch** to ensure proper version control, organization, and traceability throughout the course.
-
----
-
-## Course Overview
-
-The course introduces the foundational concepts of modern frontend engineering. Beginning with **HTML**, we progress into **CSS**, **Flexbox**, **Grid**, **Animations**, **Bootstrap**, and eventually **Responsive Web Design**.
-
----
 
 ## Learning Path
 
