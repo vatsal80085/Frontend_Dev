@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Introduction</title>
+    <title>Image Resizer & Mover</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            position: absolute;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .controls {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: #111;
+        }
+
+        .size-info {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        .move-controls {
+            margin-top: 15px;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>Welcome to JavaScript Introduction</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestias dolorem, pariatur beatae ipsam, fuga quaerat quae similique quas iste facere quia voluptatibus perferendis minus itaque expedita eaque, magni earum.</p>
-    <script src="operators.js"></script>
-    <script src="variables.js"></script>
+    <h1>Image Resizer & Mover</h1>
+
+    <div class="container">
+        <img id="myImage" src="picture1.jpg" alt="Sample Image" width="200" height="200"
+            style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    </div>
+
+    <div class="controls">
+        <h3>Resize Controls</h3>
+        <button onclick="resizeImage('increaseWidth')">Increase Width</button>
+        <button onclick="resizeImage('decreaseWidth')">Decrease Width</button><br>
+        <button onclick="resizeImage('increaseHeight')">Increase Height</button>
+        <button onclick="resizeImage('decreaseHeight')">Decrease Height</button>
+    </div>
+
+    <div class="move-controls">
+        <h3>Move Controls</h3>
+        <button onclick="moveImage('up')">Up</button><br>
+        <button onclick="moveImage('left')">Left</button>
+        <button onclick="moveImage('right')">Right</button><br>
+        <button onclick="moveImage('down')">Down</button>
+    </div>
+
+    <div class="size-info" id="sizeInfo">Width: 200px | Height: 200px</div>
+
+    <script>
+        const img = document.getElementById('myImage');
+        const sizeInfo = document.getElementById('sizeInfo');
+        let width = img.width;
+        let height = img.height;
+        let topPos = 50; // percentage
+        let leftPos = 50;
+
+        function resizeImage(action) {
+            const step = 100; // pixels per change
+
+            if (action === 'increaseWidth') width += step;
+            else if (action === 'decreaseWidth' && width > step) width -= step;
+            else if (action === 'increaseHeight') height += step;
+            else if (action === 'decreaseHeight' && height > step) height -= step;
+
+            img.width = width;
+            img.height = height;
+            sizeInfo.textContent = `Width: ${width}px | Height: ${height}px`;
+        }
+
+        function moveImage(direction) {
+            const step = 20; // percentage per move
+
+            if (direction === 'up') topPos -= step;
+            else if (direction === 'down') topPos += step;
+            else if (direction === 'left') leftPos -= step;
+            else if (direction === 'right') leftPos += step;
+
+            img.style.top = topPos + '%';
+            img.style.left = leftPos + '%';
+            img.style.transform = 'translate(-50%, -50%)';
+        }
+    </script>
 </body>
+
 </html>
