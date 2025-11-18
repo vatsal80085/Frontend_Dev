@@ -2,45 +2,12 @@
 
 # Frontend Development Repository
 
-This repository documents my daily learning progress, assignments, and practical implementations for the **Frontend Development** module, guided by **Mr. Deepak Prasad** and **Mr. Sahil Kumar**.  
+This repository documents my daily learning progress, assignments, and practical implementations for the **Frontend Development** module, guided by **Mr. Sahil Kumar** and **Mr. Deepak Prasad**.  
 Each topic is developed on a **dedicated branch** to ensure proper version control, organization, and traceability throughout the course.
 
 ## Overview
 
-The course introduces the foundational concepts of modern frontend engineering. Beginning with **HTML**, we progress into **CSS**, **Flexbox**, **Grid**, **Animations**, **Bootstrap**, and eventually **Responsive Web Design**.
-
----
-git log --all --graph --decorate --oneline
-```
-| * (origin/bootstrap, bootstrap) [Vatsal Agarwal] add . assignment added
-| * [Vatsal Agarwal] add . lecture practice and learnings added
-|/
-| * (HEAD -> main, origin/main, origin/HEAD) [Vatsal] updated readme.md
-|/
-| * (origin/responsive-css, responsive-css) [Vatsal Agarwal] add . assignment added
-|/
-| * (origin/pseudo-classes, pseudo-classes) [Vatsal Agarwal] add . assignment added
-|/  
-| * (origin/css-model, css-model) [Vatsal Agarwal] add . assignment added
-|/  
-* (HEAD -> main, origin/main, origin/HEAD) [Vatsal] Updated README
-* [Vatsal] updated readme.md
-| * (origin/css-Flexbox-and-Grid, css-Flexbox-and-Grid) [Vatsal Agarwal] add . assignment added
-|/  
-| * (origin/css-basics, css-basics) [Vatsal Agarwal] add . assignment5 added
-| * [Vatsal Agarwal] add . assignment5 added
-|/
-| *  (origin/html-iframes, html-iframes) [Vatsal Agarwal] add . assignment4 added
-| *  (origin/html-block-and-inline-elements, html-block-and-inline-elements) [Vatsal Agarwal] add .assignment3 added
-| *  [Vatsal Agarwal] add . classwork Added
-|/  
-| *  (origin/HTML, HTML) [Vatsal Agarwal] add . assignment2 added
-|/  
-| *  (origin/Intro-to-web-dev, Intro-to-web-dev) [Vatsal Agarwal] add . assignment Added
-| *  [Vatsal Agarwal] add . classwork Added
-|/  
-*  (HEAD -> main, origin/main) first commit
-```
+This course builds a strong foundation in frontend technologies — starting with **HTML**, advancing through **CSS**, **Flexbox**, **Grid**, **Animations**, **Responsive Design** finally mastering **JavaScript**.
 
 ## Learning Path
 
@@ -54,7 +21,8 @@ git log --all --graph --decorate --oneline
 8. **CSS Pseudo-Classes, Transitions & Animations**
 9. **Bootstrap Fundamentals**
 10. **Responsive CSS & Media Queries**
-
+11. **Intro to JavaScript**
+12. **JS Operators**
 ---
 
 ## Repository Structure
@@ -63,31 +31,36 @@ git log --all --graph --decorate --oneline
 |--------------|----------------|
 | `main` | README and overall progress |
 | `intro-to-web-dev` | 3-Tier Architecture, localhost, ports, and basic HTML setup |
-| `html` | HTML basics – headings, paragraphs, tables, and images |
-| `html-block-&inline-elements` | Block vs inline behavior, attributes, layout, and positioning |
-| `html-iframes` | Embedding external websites, maps, and videos using `<iframe>` |
-| `css` | CSS fundamentals – syntax, selectors, colors, and backgrounds |
-| `flex` | CSS Flexbox layout system |
-| `css-model` | CSS Box Model – margin, padding, borders, shadows, gradients |
-| `css-classes` | Pseudo-classes, tooltips, transitions, and transforms |
-| `bootstrap` | Responsive containers, grid system, utilities, and components |
-| `responsive-css` | Filters, responsive design principles, and media queries |
+| `main` | Overview & README |
+| `intro-to-web-dev` | 3-Tier Architecture, localhost, ports, and setup |
+| `html` | HTML basics: headings, tables, images |
+| `html-block-&inline-elements` | Block vs Inline, layout, and positioning |
+| `html-iframes` | Embedding media using `<iframe>` |
+| `css` | CSS syntax, selectors, and backgrounds |
+| `flex` | Flexbox layouts |
+| `css-model` | Box Model, gradients, and borders |
+| `css-classes` | Pseudo-classes, transitions, animations |
+| `responsive-css` | Media Queries and responsiveness |
+| `BootStrap` | HTML CSS Library |
+| `JavaScript` | Learn Variables,datatypes,operations,control statements |
 
 ---
 
 ## Assignments
 
 | Date | Assignment | Description |
-|------|-------------|-------------|
-| Oct 9 | **Introduction to Web Development** | Created a timetable using the `<table>` element |
-| Oct 9 | **HTML Basics** | Designed a simple webpage demonstrating foundational HTML |
-| Oct 10 | **Block & Inline Elements** | Practiced layout behavior using inline, block, and inline-block elements |
-| Oct 10 | **HTML Iframes** | Embedded YouTube videos and Google Maps |
-| Oct 16 | **CSS Basics** | Applied introductory styling, layout spacing, and selectors |
-| Oct 16 | **Flexbox & Grid Layouts** | Implemented responsive card and calculator layouts |
-| Oct 31 | **CSS Box Model** | Built a calculator layout using CSS Grid and gradient styling |
-| Oct 31 | **Pseudo-Classes & Animations** | Implemented transitions, transforms, and tooltip interactions |
-| Nov (Ongoing) | **Bootstrap Components** | Utilized grid system, utilities, buttons, cards, and responsive breakpoints |
+| Oct 9 | Intro to Web Dev | Created a timetable using `<table>` |
+| Oct 9 | HTML Basics | Built a basic webpage |
+| Oct 10 | Block & Inline Elements | Demonstrated layout concepts |
+| Oct 10 | HTML Iframes | Embedded YouTube & Maps |
+| Oct 16 | CSS Basics | Applied basic styling |
+| Oct 16 | Flexbox & Grid | Created a responsive layout |
+| Oct 31 | CSS Model | Calculator layout with Grid & gradients |
+| Oct 31 | Pseudo Classes | Implemented animations & tooltips |
+| Oct 31 | Responsive CSS | Used Media Queries for mobile-first design |
+| Nov 10 | BootStrap | Made Many Different Sites |
+| Nov 12 | Intro to JS | Implement Variables,operations and control statements |
+| Nov 15 | JS Operators | Implement scopes |
 
 ---
 
@@ -123,19 +96,21 @@ git log --all --graph --decorate --oneline
 - Created tooltips and diagonal animations
 - **Task:** Animate an element using transform and transition
 
-### Nov – Bootstrap Fundamentals
-- Explored responsive containers, typography utilities, and spacing helpers
-- Implemented the Bootstrap Grid System
-- **Task:** Build a responsive webpage layout using Bootstrap components
+### Nov 3 – Responsive CSS  
+- Mastered Media Queries  
+- Task: Mobile-first responsive site
 
----
+### Nov 7 – BootStrap
+- Mastered HTML CSS Library 
+- Task: Made Bootstrap header and personal portfolio
 
-## Upcoming Topics
-- **Responsive Design Architecture**
-- Mobile-first workflow
-- Device breakpoints
-- Complex media queries
-- Performance considerations
+### Nov 10 – Intro To JS
+- Mastered Variable,Operations and Control Statements 
+- Task: Implement all above things
+
+### Nov 12 – Scopes And Dom Manipulation
+- Mastered  Scopes And Dom Manipulation
+- Task: Made one project(Color Changing Sites)
 
 ---
 
@@ -146,6 +121,6 @@ Grateful to **Mr. Sahil Kumar** and **Mr. Deepak Prasad** for structured guidanc
 ---
 
 **Author:** Vatsal Agarwal  
-**Course:** Frontend Development (HTML, CSS, Bootstrap)  
-**Mentors:** Sahil Kumar & Deepak Prasad  
+**Course:** Frontend Development (HTML, CSS, Bootstrap, JavaScript)  
+**Mentors:** Sahil Sir & Deepak Sir  
 **Institution:** GLA University, Mathura
