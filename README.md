@@ -47,8 +47,8 @@ This course builds a strong foundation in frontend technologies — starting wit
 ---
 
 ## Assignments
-
-| Date | Assignment | Description |
+| `Date` | Assignment | Description |
+|--------|------------|-------------|
 | Oct 9 | Intro to Web Dev | Created a timetable using `<table>` |
 | Oct 9 | HTML Basics | Built a basic webpage |
 | Oct 10 | Block & Inline Elements | Demonstrated layout concepts |
