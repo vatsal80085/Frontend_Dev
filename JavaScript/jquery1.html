@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <style>
+        .para-box {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="box">
+        <h1>Jquery - ideal for DOM manipulation</h1>
+    </div>
+    <div class="para-box">
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque possimus fugit excepturi
+            voluptatum veritatis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minima, officiis doloribus tenetur ullam
+            voluptate?
+        </p>
+        <p id="counter">Counter: 0</p>
+        <button id="btn">Click This</button>
+        <button id="fadeBtn">fade in/out</button>
+        <div class="container">
+            <h2>Container Header</h2>
+        </div>
+
+    </div>
+    <script>
+        // jQuery code can be added here
+        $(".box").css({ "background-color": "midnightblue", "color": "white", "padding": "20px", "text-align": "center" });
+
+        $("#btn").click(function () {
+            $(".container").append("<p>Button Clicked! New paragraph added.</p>");
+        });
+
+        $("#btn").click(function () {
+            $("#para").hide();
+        });
+
+        $("#fadeBtn").click(function () {
+            $("#para").fadeToggle();
+        });
+
+        $(".box").mouseenter(function () {
+            $("h1").css("background-color", "darkred");
+        }).mouseleave(function () {
+            $("h1").css("background-color", "midnightblue");
+        });
+
+
+        let count = 0;
+        $("#btn").mouseover(function () {
+            count++;
+            $("#counter").text("Counter: " + count);
+        });
+
+        $(".container").addClass("bg-green").css({ "background-color": "lightgreen", "padding": "10px", "margin-top": "20px" }).mouseover(function () {
+            $(this).css("background-color", "green");
+        }).mouseleave(function () {
+            $(this).css("background-color", "lightgreen");
+        });
+
+
+        
+
+
+    </script>
+</body>
+
+</html>
