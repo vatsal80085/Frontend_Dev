@@ -1,0 +1,1 @@
+console.log('Q6 loaded');
