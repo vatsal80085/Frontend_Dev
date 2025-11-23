@@ -1,0 +1,1 @@
+function login(){let u=document.getElementById("user");let p=document.getElementById("pass");let uR=/.{5,}/;let pR=/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$/;if(!uR.test(u.value))console.log("Invalid username");else if(!pR.test(p.value))console.log("Invalid password");else console.log("Success");}

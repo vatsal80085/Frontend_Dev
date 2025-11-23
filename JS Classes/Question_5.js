@@ -1,0 +1,1 @@
+function book(){let n=document.getElementById("name").value;let e=document.getElementById("email").value;let s=document.getElementById("seats").value;let nR=/^[A-Za-z]+$/;let eR=/^[^@]+@[^@]+\.[a-z]+$/;let sR=/^(10|[1-9])$/;if(nR.test(n)&&eR.test(e)&&sR.test(s)){let o={name:n,email:e,seats:s};console.log(o);}else console.log("Invalid");}
