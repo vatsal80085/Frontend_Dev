@@ -1,0 +1,1 @@
+const menu={burger:100,pizza:200,pasta:150};function calculateBill(order){try{let prices=order.map(i=>{if(!menu[i])throw new Error("Invalid item: "+i);return menu[i];});let total=prices.reduce((a,b)=>a+b,0);console.log(total);}catch(e){console.log(e.message);}}calculateBill(["burger","pasta"]);calculateBill(["burger","rice"]);

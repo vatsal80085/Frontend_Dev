@@ -1,0 +1,1 @@
+class Employee{constructor(n,d){this.name=n;this.department=d;}work(){return"Employee working";}}class Manager extends Employee{work(){return"Manager managing";}}let e=new Employee("A","Tech");let m=new Manager("B","HR");function show(x){console.log(x.work());}show(e);show(m);

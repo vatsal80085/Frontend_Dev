@@ -1,0 +1,1 @@
+function Product(n,p){this.name=n;this.price=p;}Product.prototype.applyDiscount=function(x){return this.price-(this.price*x/100);};let p1=new Product("A",100);let p2=new Product("B",200);let p3=new Product("C",300);console.log(p1.applyDiscount(10));console.log(p2.applyDiscount(20));console.log(p3.applyDiscount(30));
