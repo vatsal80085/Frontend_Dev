@@ -1,0 +1,1 @@
+function Car(b,m){this.brand=b;this.model=m;}Car.prototype.getDetails=function(){console.log(this.brand,this.model);};let c1=new Car("BMW","X5");let c2=new Car("Audi","Q7");c1.getDetails();c2.getDetails();

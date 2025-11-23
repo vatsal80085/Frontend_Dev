@@ -1,0 +1,1 @@
+function Person(n){this.name=n;}Person.prototype.showName=function(){console.log(this.name);}function Student(n,b){Person.call(this,n);this.branch=b;}Student.prototype=Object.create(Person.prototype);Student.prototype.showBranch=function(){console.log(this.branch);}let s=new Student("A","CSE");s.showName();s.showBranch();

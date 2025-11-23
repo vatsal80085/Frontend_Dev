@@ -1,0 +1,1 @@
+let user={name:"Vatsal",showName:()=>{console.log(this.name);}};user.showName();let user2={name:"Sparsh",showName:function(){console.log(this.name);}};user2.showName();

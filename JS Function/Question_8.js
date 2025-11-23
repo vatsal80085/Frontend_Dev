@@ -1,0 +1,1 @@
+Array.prototype.myMap=function(cb){let r=[];for(let i=0;i<this.length;i++)r.push(cb(this[i]));return r;};console.log([1,2,3].myMap(x=>x*2));
